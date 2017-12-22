@@ -1,0 +1,35 @@
+{
+  "name": "Ajax Jstree  Lazy Loading Plugin Version 3.3.3",
+  "version": "1.0",
+  "description": "This Jstree is the new Version of https://github.com/tompetrus/oracle-apex-ajax-tree
+  Login: demo/demo",
+  "keywords": ["jstree", "state", "Region", "Plugin"],
+  "homepage": "https://github.com/allipierre/Ajax-Jstree-Lazy-Loading-Version-3.3.3",
+  "bugs": {
+    "url": "https://github.com/allipierre/Ajax-Jstree-Lazy-Loading-Version-3.3.3/issues",
+    "email": "allipierre@outlook.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Alli Pierre Yotti",
+    "email": "allipierre@outlook.com",
+    "url": "https://apex.oracle.com/pls/apex/f?p=1373:1",
+    "twitter": "pierre_yotti"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allipierre/Ajax-Jstree-Lazy-Loading-Version-3.3.3"
+  },
+  "oracle": {
+    "versions": ["11.2.0.1", "12.1.0.1", "12.2.0.1"],
+    "apex": {
+      "versions": ["5.1.0"],
+      "plugin": {
+        "internalName": "YOTTI.AJAX.JTREE.REGION",
+        "type": "region",
+        "demo": "https://apex.oracle.com/pls/apex/f?p=123868:54",
+        "previewImage": "https://raw.githubusercontent.com/allipierre/Ajax-Jstree-Lazy-Loading-Version-3.3.3/master/jstreeplugin.png"
+      }
+    }
+  }
+}
